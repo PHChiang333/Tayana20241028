@@ -1,0 +1,6 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/SiteBack.Master" AutoEventWireup="true" CodeBehind="SiteBackNested_SidebarNormal.master.cs" Inherits="WebApplicationTayana20241028.SiteBackNested_SidebarNormal" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderNested1" runat="server">
+    我是Nested
+</asp:Content>

@@ -1,0 +1,493 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteBack.Master.cs" Inherits="WebApplicationTayana20241028.Back" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>TtayanaWorld</title>
+
+    <style>
+        img {
+            width: 100%;
+        }
+    </style>
+
+    <%--master style start--%>
+    <!-- [Favicon] icon -->
+    <%--<link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon">--%>
+    <link rel="icon" href="/datta-able-bootstrap-dashboard/dist/assets/images/favicon.svg" type="image/x-icon">
+    <!-- [Font] Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- [Tabler Icons] https://tablericons.com -->
+    <link rel="stylesheet" href="/datta-able-bootstrap-dashboard/dist/assets/fonts/tabler-icons.min.css">
+    <!-- [Feather Icons] https://feathericons.com -->
+    <link rel="stylesheet" href="/datta-able-bootstrap-dashboard/dist/assets/fonts/feather.css">
+    <!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="/datta-able-bootstrap-dashboard/dist/assets/fonts/fontawesome.css">
+    <!-- [Material Icons] https://fonts.google.com/icons -->
+    <link rel="stylesheet" href="/datta-able-bootstrap-dashboard/dist/assets/fonts/material.css">
+    <!-- [Template CSS Files] -->
+    <link rel="stylesheet" href="/datta-able-bootstrap-dashboard/dist/assets/css/style.css" id="mainstylelink">
+    <%--<link rel="stylesheet" href="/datta-able-bootstrap-dashboard/dist/assets/css/style.css" id="main-style-link">--%>
+    <%-- 原本的 id="main-style-link 有"-"會報錯   --%>
+    <link rel="stylesheet" href="/datta-able-bootstrap-dashboard/dist/assets/css/style.css">
+    <link rel="stylesheet" href="/datta-able-bootstrap-dashboard/dist/assets/css/style-preset.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-14K1GBX9FG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-14K1GBX9FG');
+    </script>
+    <!-- WiserNotify -->
+    <script>
+        !(function () {
+            if (window.t4hto4) console.log('WiserNotify pixel installed multiple time in this page');
+            else {
+                window.t4hto4 = !0;
+                var t = document,
+                    e = window,
+                    n = function () {
+                        var e = t.createElement('script');
+                        (e.type = 'text/javascript'),
+                            (e.async = !0),
+                            (e.src = 'https://pt.wisernotify.com/pixel.js?ti=1jclj6jkfc4hhry'),
+                            document.body.appendChild(e);
+                    };
+                'complete' === t.readyState ? n() : window.attachEvent ? e.attachEvent('onload', n) : e.addEventListener('load', n, !1);
+            }
+        })();
+    </script>
+    <!-- Microsoft clarity -->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] =
+                c[a] ||
+                function () {
+                    (c[a].q = c[a].q || []).push(arguments);
+                };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = 'https://www.clarity.ms/tag/' + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+        })(window, document, 'clarity', 'script', 'gkn6wuhrtb');
+    </script>
+    <%--master style end--%>
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<!-- [Body] Start -->
+<body data-pc-preset="preset-1" data-pc-sidebar-caption="true" data-pc-direction="ltr" data-pc-theme="light">
+    <form id="form1" runat="server">
+        <!-- [ Pre-loader ] start -->
+        <div class="loader-bg">
+            <div class="loader-track">
+                <div class="loader-fill"></div>
+            </div>
+        </div>
+        <!-- [ Pre-loader ] End -->
+
+
+
+        <!-- [ Sidebar Menu ] start -->
+        <nav class="pc-sidebar">
+            <div class="navbar-wrapper">
+                <div class="m-header">
+                    <a href="WebForm1Index.aspx" class="b-brand text-primary">
+                        <!-- ========   Change your logo from here   ============ -->
+                        <img src="tayana/html/images/pit008.jpg" class="img-fluid logo-lg" alt="logo">
+                    </a>
+                </div>
+                <div class="navbar-content">
+                    <ul class="pc-navbar">
+
+                        <%--前台Sidebar  start--%>
+                        <li class="pc-item pc-caption">
+                            <label>Page Navigation</label>
+                            <i data-feather="sidebar"></i>
+                        </li>
+                        <li class="pc-item pc-hasmenu">
+                            <a href="#!" class="pc-link">
+                                <span class="pc-micon">
+                                    <i data-feather="align-right"></i>
+                                </span>
+                                <span class="pc-mtext">Pages</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
+                            </a>
+                            <ul class="pc-submenu">
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1Index.aspx">Home</a>
+                                </li>
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1yachts01.aspx">Yacht</a>
+                                </li>
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1News01.aspx">News</a>
+                                </li>
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1compan01.aspx">Company</a>
+                                </li>
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1dealers.aspx">Dealers</a>
+                                </li>
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1contact.aspx">Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <%--前台Sidebar  end--%>
+
+                        <%--後台Sidebar  start--%>
+                        <li class="pc-item pc-caption">
+                            <label>Management Group</label>
+                            <i data-feather="sidebar"></i>
+                        </li>
+                        <li class="pc-item pc-hasmenu">
+                            <a href="#!" class="pc-link">
+                                <span class="pc-micon">
+                                    <i data-feather="align-right"></i>
+                                </span>
+                                <span class="pc-mtext">Page Management</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
+                            </a>
+                            <ul class="pc-submenu">
+<%--                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1Index.aspx">Home</a>
+                                </li>--%>
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1yachtManage.aspx">Yacht</a>
+                                </li>
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1NewsManage.aspx">News</a>
+                                </li>
+<%--                                <li class="pc-item">
+                                    <a class="pc-link" href="#">Company</a>
+                                </li>--%>
+                                <li class="pc-item">
+                                    <a class="pc-link" href="WebForm1dealersManageV2.aspx">Dealers</a>
+                                </li>
+<%--                                <li class="pc-item">
+                                    <a class="pc-link" href="#">Contact</a>
+                                </li>--%>
+
+                            </ul>
+                        </li>
+
+                        <%--後台Sidebar  end--%>
+
+                        <%--使用者管理Sidebar  start--%>
+                        <li class="pc-item pc-hasmenu">
+                            <a href="#!" class="pc-link">
+                                <span class="pc-micon">
+                                    <i data-feather="align-right"></i>
+                                </span>
+                                <span class="pc-mtext">User Management</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
+                            </a>
+                            <ul class="pc-submenu">
+                                <li class="pc-item"><a class="pc-link" href="WebForm1UserLogin.aspx">Login</a></li>
+                                <li class="pc-item"><a class="pc-link" href="WebForm1UserRegister.aspx">Register</a></li>
+<%--                                <li class="pc-item"><a class="pc-link" href="WebForm1UserManage.aspx">User management</a></li>--%>
+                                <li class="pc-item">
+                                    <asp:HyperLink ID="HyperLinkUserManage" runat="server" CssClass="pc-link" Visible="false" NavigateUrl="WebForm1UserManage.aspx">User management</asp:HyperLink></li>
+                            </ul>
+                        </li>
+
+                        <%--使用者管理Sidebar  end--%>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- [ Sidebar Menu ] end -->
+
+
+
+
+
+
+
+
+        <!-- [ Header Topbar ] start -->
+        <header class="pc-header">
+            <div class="header-wrapper">
+                <!-- [Mobile Media Block] start -->
+                <div class="me-auto pc-mob-drp">
+                    <ul class="list-unstyled">
+                        <!-- ======= Menu collapse Icon ===== -->
+                        <li class="pc-h-item pc-sidebar-collapse">
+                            <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+                                <i data-feather="menu"></i>
+                            </a>
+                        </li>
+                        <li class="pc-h-item pc-sidebar-popup">
+                            <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+                                <i data-feather="menu"></i>
+                            </a>
+                        </li>
+                        <li class="dropdown pc-h-item">
+<%--                            <a class="pc-head-link dropdown-toggle arrow-none m-0 trig-drp-search" data-bs-toggle="dropdown" href="#"
+                                role="button" aria-haspopup="false" aria-expanded="false">
+                                <i data-feather="search"></i>
+                            </a>--%>
+                            <div class="dropdown-menu pc-h-dropdown drp-search">
+                                <%--                                <form class="px-3 py-2">
+                                    <input type="search" class="form-control border-0 shadow-none" placeholder="Search here. . ." />
+                                </form>--%>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- [Mobile Media Block end] -->
+                <div class="ms-auto">
+                    <asp:Label ID="LabelUserNameLogin" runat="server" Text="尚未登入，請登入" CssClass="fs-6"></asp:Label>
+<%--                    <asp:Button ID="ButtonToLoginPage" runat="server" Text="前往登入頁面" OnClick="ButtonToLoginPage_Click" Visible="true" CssClass="btn btn-primary" />--%>
+                    <asp:Button ID="ButtonLogout" runat="server" Text="登出" OnClick="ButtonLogout_Click" Visible="false" CssClass="btn btn-primary" Height="30px" Width="60px" />
+
+
+                    <%--頭像清單--%>
+                    <%--<ul class="list-unstyled">
+                        <li class="dropdown pc-h-item">
+                            <a class="pc-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="false" aria-expanded="false">
+                                <i data-feather="bell"></i>
+                                <span class="badge bg-success pc-h-badge">3</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
+                                <div class="dropdown-header d-flex align-items-center justify-content-between">
+                                    <h5 class="m-0">Notifications</h5>
+                                    <a href="#!" class="btn btn-link btn-sm">Mark all read</a>
+                                </div>
+                                <div class="dropdown-body text-wrap header-notification-scroll position-relative"
+                                    style="max-height: calc(100vh - 215px)">
+                                    <p class="text-span">Today</p>
+                                    <div class="card mb-0">
+                                        <div class="card-body">
+                                            <div class="d-flex">
+                                                <div class="flex-shrink-0">
+                                                    <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-1.jpg"
+                                                        alt="Generic placeholder image">
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <span class="float-end text-sm text-muted">2 min ago</span>
+                                                    <h5 class="text-body mb-2">UI/UX Design</h5>
+                                                    <p class="mb-0">
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of
+                          type and scrambled it to make a type
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-0">
+                                        <div class="card-body">
+                                            <div class="d-flex">
+                                                <div class="flex-shrink-0">
+                                                    <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-2.jpg"
+                                                        alt="Generic placeholder image">
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <span class="float-end text-sm text-muted">1 hour ago</span>
+                                                    <h5 class="text-body mb-2">Message</h5>
+                                                    <p class="mb-0">Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-span">Yesterday</p>
+                                    <div class="card mb-0">
+                                        <div class="card-body">
+                                            <div class="d-flex">
+                                                <div class="flex-shrink-0">
+                                                    <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-3.jpg"
+                                                        alt="Generic placeholder image">
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <span class="float-end text-sm text-muted">2 hour ago</span>
+                                                    <h5 class="text-body mb-2">Forms</h5>
+                                                    <p class="mb-0">
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of
+                          type and scrambled it to make a type
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-0">
+                                        <div class="card-body">
+                                            <div class="d-flex">
+                                                <div class="flex-shrink-0">
+                                                    <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-4.jpg"
+                                                        alt="Generic placeholder image">
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <span class="float-end text-sm text-muted">12 hour ago</span>
+                                                    <h5 class="text-body mb-2">Challenge invitation</h5>
+                                                    <p class="mb-2"><span class="text-dark">Jonny aber</span> invites to join the challenge</p>
+                                                    <button class="btn btn-sm btn-outline-secondary me-2">Decline</button>
+                                                    <button class="btn btn-sm btn-primary">Accept</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-0">
+                                        <div class="card-body">
+                                            <div class="d-flex">
+                                                <div class="flex-shrink-0">
+                                                    <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-5.jpg"
+                                                        alt="Generic placeholder image">
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <span class="float-end text-sm text-muted">5 hour ago</span>
+                                                    <h5 class="text-body mb-2">Security</h5>
+                                                    <p class="mb-0">
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of
+                          type and scrambled it to make a type
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center py-2">
+                                    <a href="#!" class="link-danger">Clear all Notifications</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown pc-h-item header-user-profile">
+                            <a class="pc-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="false" data-bs-auto-close="outside" aria-expanded="false">
+                                <i data-feather="user"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown p-0 overflow-hidden">
+                                <div class="dropdown-header d-flex align-items-center justify-content-between bg-primary">
+                                    <div class="d-flex my-2">
+                                        <div class="flex-shrink-0">
+                                            <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar wid-35" />
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h6 class="text-white mb-1">Carson Darrin 🖖</h6>
+                                            <span class="text-white text-opacity-75">carson.darrin@company.io</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropdown-body">
+                                    <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
+                                        <a href="#" class="dropdown-item">
+                                            <span>
+                                                <svg class="pc-icon text-muted me-2">
+                                                    <use xlink:href="#custom-setting-outline"></use>
+                                                </svg>
+                                                <span>Settings</span>
+                                            </span>
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            <span>
+                                                <svg class="pc-icon text-muted me-2">
+                                                    <use xlink:href="#custom-share-bold"></use>
+                                                </svg>
+                                                <span>Share</span>
+                                            </span>
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            <span>
+                                                <svg class="pc-icon text-muted me-2">
+                                                    <use xlink:href="#custom-lock-outline"></use>
+                                                </svg>
+                                                <span>Change Password</span>
+                                            </span>
+                                        </a>
+                                        <div class="d-grid my-2">
+                                            <button class="btn btn-primary">
+                                                <svg class="pc-icon me-2">
+                                                    <use xlink:href="#custom-logout-1-outline"></use>
+                                                </svg>Logout
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>--%>
+                </div>
+            </div>
+        </header>
+        <!-- [ Header ] end -->
+
+        <!-- [ Main Content ] start -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- [ Main Content ] end -->
+
+
+
+
+
+
+
+
+        <!-- [ Footer ] end -->
+        <footer class="pc-footer">
+            <div class="footer-wrapper container-fluid">
+                <div class="row">
+                    <div class="col my-1">
+                        <p class="m-0">
+                            Datta able &#9829; crafted by Team <a href="https://codedthemes.com/"
+                                target="_blank">Codedthemes</a>
+                        </p>
+                    </div>
+                    <div class="col-auto my-1">
+                        <ul class="list-inline footer-link mb-0">
+                            <li class="list-inline-item"><a href="WebForm1BackIndex.aspx">Dashboard</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- [ Footer ] end -->
+
+
+
+
+
+        <!-- [Page Specific JS] start -->
+        <!-- apexcharts js -->
+        <%--<script src="/datta-able-bootstrap-dashboard/dist/assets/js/plugins/apexcharts.min.js"></script>
+
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/plugins/jsvectormap.min.js"></script>
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/plugins/world.js"></script>
+
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/pages/dashboard-default.js"></script>--%>
+        <!-- [Page Specific JS] end -->
+
+        <!-- Required Js -->
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/plugins/popper.min.js"></script>
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/plugins/simplebar.min.js"></script>
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/plugins/bootstrap.min.js"></script>
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/fonts/custom-font.js"></script>
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/pcoded.js"></script>
+        <script src="/datta-able-bootstrap-dashboard/dist/assets/js/plugins/feather.min.js"></script>
+
+        <script>layout_change('light');</script>
+        <script>change_box_container('false');</script>
+        <script>layout_caption_change('true');</script>
+        <script>layout_rtl_change('false');</script>
+        <script>preset_change("preset-1");</script>
+        <script>layout_theme_sidebar_change('false');</script>
+
+
+    </form>
+</body>
+<!-- [Body] end -->
+</html>

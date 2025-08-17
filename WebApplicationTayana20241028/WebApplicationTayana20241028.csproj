@@ -1,0 +1,1317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.5.6.2\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.5.6.2\build\Microsoft.TypeScript.MSBuild.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC0964DF-675B-4A6B-9236-F96619129907}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplicationTayana20241028</RootNamespace>
+    <AssemblyName>WebApplicationTayana20241028</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44389</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="CKEditor.NET, Version=3.6.4.0, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <HintPath>..\packages\CkeditorForASP.NET.3.6.4.0\lib\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Konscious.Security.Cryptography.Argon2, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Konscious.Security.Cryptography.Argon2.1.3.1\lib\net46\Konscious.Security.Cryptography.Argon2.dll</HintPath>
+    </Reference>
+    <Reference Include="Konscious.Security.Cryptography.Blake2, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Konscious.Security.Cryptography.Blake2.1.1.1\lib\net46\Konscious.Security.Cryptography.Blake2.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailKit.4.8.0\lib\net47\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MimeKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.4.8.0\lib\net47\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Recaptcha.Web, Version=3.1.0.0, Culture=neutral, PublicKeyToken=c11b6c0ad947566e, processorArchitecture=MSIL">
+      <HintPath>..\packages\RecaptchaNet.3.1.0\lib\net45\Recaptcha.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Formats.Asn1, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Formats.Asn1.8.0.1\lib\net462\System.Formats.Asn1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="datta-able-bootstrap-dashboard\.gitignore" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\landing.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\plugins\bootstrap.min.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\plugins\jsvectormap.min.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\style-preset.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\style.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather\feather.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\inter\inter.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\material.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\Phosphor-Duotone.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\style.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler-icons.min.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\application\img-coupon.png" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\favicon.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\landing\img-header-main.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\landing\img-wave.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\logo-dark.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\logo-white.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-1.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-10.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-2.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-3.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-4.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-5.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-6.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-7.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-8.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-9.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\fonts\custom-font.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\pages\dashboard-default.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\pcoded.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\apexcharts.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\bootstrap.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\feather.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\jsvectormap.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\popper.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\simplebar.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\world-merc.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\world.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\dashboard\index.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\elements\bc_color.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\elements\bc_typography.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\elements\icon-feather.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\index.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\breadcrumb.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\footer-block.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\footer-js.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\head-css.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\head-page-meta.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\header-content.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\layout-vertical.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\loader.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\menu-list.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\sidebar.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\topbar.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\other\sample-page.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\pages\login-v1.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\pages\register-v1.html" />
+    <Content Include="datta-able-bootstrap-dashboard\gulpfile.js" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather\feather.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\inter\inter.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\material.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\Phosphor-Duotone.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\style.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler-icons.min.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\application\img-coupon.png" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\favicon.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\landing\img-header-main.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\landing\img-wave.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\logo-dark.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\logo-white.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-1.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-10.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-2.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-3.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-4.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-5.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-6.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-7.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-8.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-9.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\js\fonts\custom-font.js" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\js\pages\dashboard-default.js" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\js\pcoded.js" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\dashboard\index.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\elements\bc_color.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\elements\bc_typography.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\elements\icon-feather.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\index.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\breadcrumb.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\footer-block.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\footer-js.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\head-css.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\head-page-meta.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\header-content.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\layout-vertical.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\loader.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\menu-list.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\sidebar.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\topbar.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\other\sample-page.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\pages\login-v1.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\pages\register-v1.html" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="image\upload\NewsImg\Cover\sail-boat-in-water-33689.jpg" />
+    <Content Include="Scripts\ckeditor\adapters\jquery.js" />
+    <Content Include="Scripts\ckeditor\CHANGES.html" />
+    <Content Include="Scripts\ckeditor\ckeditor.asp" />
+    <Content Include="Scripts\ckeditor\ckeditor.js" />
+    <Content Include="Scripts\ckeditor\ckeditor.php" />
+    <Content Include="Scripts\ckeditor\ckeditor_basic.js" />
+    <Content Include="Scripts\ckeditor\ckeditor_basic_source.js" />
+    <Content Include="Scripts\ckeditor\ckeditor_php4.php" />
+    <Content Include="Scripts\ckeditor\ckeditor_php5.php" />
+    <Content Include="Scripts\ckeditor\ckeditor_source.js" />
+    <Content Include="Scripts\ckeditor\config.js" />
+    <Content Include="Scripts\ckeditor\contents.css" />
+    <Content Include="Scripts\ckeditor\images\spacer.gif" />
+    <Content Include="Scripts\ckeditor\INSTALL.html" />
+    <Content Include="Scripts\ckeditor\lang\af.js" />
+    <Content Include="Scripts\ckeditor\lang\ar.js" />
+    <Content Include="Scripts\ckeditor\lang\bg.js" />
+    <Content Include="Scripts\ckeditor\lang\bn.js" />
+    <Content Include="Scripts\ckeditor\lang\bs.js" />
+    <Content Include="Scripts\ckeditor\lang\ca.js" />
+    <Content Include="Scripts\ckeditor\lang\cs.js" />
+    <Content Include="Scripts\ckeditor\lang\cy.js" />
+    <Content Include="Scripts\ckeditor\lang\da.js" />
+    <Content Include="Scripts\ckeditor\lang\de.js" />
+    <Content Include="Scripts\ckeditor\lang\el.js" />
+    <Content Include="Scripts\ckeditor\lang\en-au.js" />
+    <Content Include="Scripts\ckeditor\lang\en-ca.js" />
+    <Content Include="Scripts\ckeditor\lang\en-gb.js" />
+    <Content Include="Scripts\ckeditor\lang\en.js" />
+    <Content Include="Scripts\ckeditor\lang\eo.js" />
+    <Content Include="Scripts\ckeditor\lang\es.js" />
+    <Content Include="Scripts\ckeditor\lang\et.js" />
+    <Content Include="Scripts\ckeditor\lang\eu.js" />
+    <Content Include="Scripts\ckeditor\lang\fa.js" />
+    <Content Include="Scripts\ckeditor\lang\fi.js" />
+    <Content Include="Scripts\ckeditor\lang\fo.js" />
+    <Content Include="Scripts\ckeditor\lang\fr-ca.js" />
+    <Content Include="Scripts\ckeditor\lang\fr.js" />
+    <Content Include="Scripts\ckeditor\lang\gl.js" />
+    <Content Include="Scripts\ckeditor\lang\gu.js" />
+    <Content Include="Scripts\ckeditor\lang\he.js" />
+    <Content Include="Scripts\ckeditor\lang\hi.js" />
+    <Content Include="Scripts\ckeditor\lang\hr.js" />
+    <Content Include="Scripts\ckeditor\lang\hu.js" />
+    <Content Include="Scripts\ckeditor\lang\id.js" />
+    <Content Include="Scripts\ckeditor\lang\is.js" />
+    <Content Include="Scripts\ckeditor\lang\it.js" />
+    <Content Include="Scripts\ckeditor\lang\ja.js" />
+    <Content Include="Scripts\ckeditor\lang\ka.js" />
+    <Content Include="Scripts\ckeditor\lang\km.js" />
+    <Content Include="Scripts\ckeditor\lang\ko.js" />
+    <Content Include="Scripts\ckeditor\lang\lt.js" />
+    <Content Include="Scripts\ckeditor\lang\lv.js" />
+    <Content Include="Scripts\ckeditor\lang\mk.js" />
+    <Content Include="Scripts\ckeditor\lang\mn.js" />
+    <Content Include="Scripts\ckeditor\lang\ms.js" />
+    <Content Include="Scripts\ckeditor\lang\nb.js" />
+    <Content Include="Scripts\ckeditor\lang\nl.js" />
+    <Content Include="Scripts\ckeditor\lang\no.js" />
+    <Content Include="Scripts\ckeditor\lang\pl.js" />
+    <Content Include="Scripts\ckeditor\lang\pt-br.js" />
+    <Content Include="Scripts\ckeditor\lang\pt.js" />
+    <Content Include="Scripts\ckeditor\lang\ro.js" />
+    <Content Include="Scripts\ckeditor\lang\ru.js" />
+    <Content Include="Scripts\ckeditor\lang\sk.js" />
+    <Content Include="Scripts\ckeditor\lang\sl.js" />
+    <Content Include="Scripts\ckeditor\lang\sr-latn.js" />
+    <Content Include="Scripts\ckeditor\lang\sr.js" />
+    <Content Include="Scripts\ckeditor\lang\sv.js" />
+    <Content Include="Scripts\ckeditor\lang\th.js" />
+    <Content Include="Scripts\ckeditor\lang\tr.js" />
+    <Content Include="Scripts\ckeditor\lang\ug.js" />
+    <Content Include="Scripts\ckeditor\lang\uk.js" />
+    <Content Include="Scripts\ckeditor\lang\vi.js" />
+    <Content Include="Scripts\ckeditor\lang\zh-cn.js" />
+    <Content Include="Scripts\ckeditor\lang\zh.js" />
+    <Content Include="Scripts\ckeditor\lang\_languages.js" />
+    <Content Include="Scripts\ckeditor\lang\_translationstatus.txt" />
+    <Content Include="Scripts\ckeditor\LICENSE.html" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\cs.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\cy.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\da.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\de.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\el.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\en.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\eo.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\fa.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\fi.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\fr.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\gu.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\he.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\it.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\mk.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\nb.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\nl.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\no.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\pt-br.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\ro.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\tr.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\ug.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\vi.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\zh-cn.js" />
+    <Content Include="Scripts\ckeditor\plugins\a11yhelp\lang\_translationstatus.txt" />
+    <Content Include="Scripts\ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="Scripts\ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="Scripts\ckeditor\plugins\adobeair\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\ajax\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\autogrow\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\bbcode\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="Scripts\ckeditor\plugins\colordialog\dialogs\colordialog.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\bg.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\cs.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\cy.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\da.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\de.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\el.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\en.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\eo.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\et.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\fa.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\fi.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\fr.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\gu.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\he.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\hr.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\it.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\nb.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\nl.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\no.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\pl.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\pt-br.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\tr.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\ug.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\uk.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\vi.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\zh-cn.js" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\lang\_translationstatus.txt" />
+    <Content Include="Scripts\ckeditor\plugins\devtools\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Scripts\ckeditor\plugins\div\dialogs\div.js" />
+    <Content Include="Scripts\ckeditor\plugins\docprops\dialogs\docprops.js" />
+    <Content Include="Scripts\ckeditor\plugins\docprops\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\find\dialogs\find.js" />
+    <Content Include="Scripts\ckeditor\plugins\flash\dialogs\flash.js" />
+    <Content Include="Scripts\ckeditor\plugins\flash\images\placeholder.png" />
+    <Content Include="Scripts\ckeditor\plugins\forms\dialogs\button.js" />
+    <Content Include="Scripts\ckeditor\plugins\forms\dialogs\checkbox.js" />
+    <Content Include="Scripts\ckeditor\plugins\forms\dialogs\form.js" />
+    <Content Include="Scripts\ckeditor\plugins\forms\dialogs\hiddenfield.js" />
+    <Content Include="Scripts\ckeditor\plugins\forms\dialogs\radio.js" />
+    <Content Include="Scripts\ckeditor\plugins\forms\dialogs\select.js" />
+    <Content Include="Scripts\ckeditor\plugins\forms\dialogs\textarea.js" />
+    <Content Include="Scripts\ckeditor\plugins\forms\dialogs\textfield.js" />
+    <Content Include="Scripts\ckeditor\plugins\forms\images\hiddenfield.gif" />
+    <Content Include="Scripts\ckeditor\plugins\iframedialog\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\iframe\dialogs\iframe.js" />
+    <Content Include="Scripts\ckeditor\plugins\iframe\images\placeholder.png" />
+    <Content Include="Scripts\ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="Scripts\ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="Scripts\ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="Scripts\ckeditor\plugins\link\images\anchor.gif" />
+    <Content Include="Scripts\ckeditor\plugins\liststyle\dialogs\liststyle.js" />
+    <Content Include="Scripts\ckeditor\plugins\pagebreak\images\pagebreak.gif" />
+    <Content Include="Scripts\ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="Scripts\ckeditor\plugins\pastetext\dialogs\pastetext.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\dialogs\placeholder.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\bg.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\cs.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\cy.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\da.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\de.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\el.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\en.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\eo.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\et.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\fa.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\fi.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\fr.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\he.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\hr.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\it.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\nb.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\nl.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\no.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\pl.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\pt-br.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\tr.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\ug.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\uk.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\vi.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\zh-cn.js" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\lang\_translationstatus.txt" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\placeholder.gif" />
+    <Content Include="Scripts\ckeditor\plugins\placeholder\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\preview\preview.html" />
+    <Content Include="Scripts\ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="Scripts\ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_address.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_blockquote.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_div.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_h1.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_h2.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_h3.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_h4.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_h5.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_h6.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_p.png" />
+    <Content Include="Scripts\ckeditor\plugins\showblocks\images\block_pre.png" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\dialogs\smiley.js" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\angel_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\angry_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\broken_heart.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\confused_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\cry_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\devil_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\embaressed_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\envelope.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\heart.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\kiss.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\lightbulb.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\omg_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\regular_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\sad_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\shades_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\teeth_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\thumbs_down.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\thumbs_up.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\tounge_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\whatchutalkingabout_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\smiley\images\wink_smile.gif" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\cs.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\cy.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\de.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\el.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\en.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\eo.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\et.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\fa.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\fi.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\fr.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\he.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\hr.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\it.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\nb.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\nl.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\no.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\pt-br.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\tr.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\ug.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\zh-cn.js" />
+    <Content Include="Scripts\ckeditor\plugins\specialchar\lang\_translationstatus.txt" />
+    <Content Include="Scripts\ckeditor\plugins\stylesheetparser\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\styles\styles\default.js" />
+    <Content Include="Scripts\ckeditor\plugins\tableresize\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="Scripts\ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="Scripts\ckeditor\plugins\templates\dialogs\templates.js" />
+    <Content Include="Scripts\ckeditor\plugins\templates\templates\default.js" />
+    <Content Include="Scripts\ckeditor\plugins\templates\templates\images\template1.gif" />
+    <Content Include="Scripts\ckeditor\plugins\templates\templates\images\template2.gif" />
+    <Content Include="Scripts\ckeditor\plugins\templates\templates\images\template3.gif" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\dialogs\uicolor.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\bg.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\cs.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\cy.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\da.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\de.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\el.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\en.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\eo.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\et.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\fa.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\fi.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\fr.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\he.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\hr.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\it.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\mk.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\nb.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\nl.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\no.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\pl.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\pt-br.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\tr.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\ug.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\uk.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\vi.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\zh-cn.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\lang\_translationstatus.txt" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\plugin.js" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\uicolor.gif" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\yui\assets\hue_bg.png" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\yui\assets\hue_thumb.png" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\yui\assets\picker_mask.png" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\yui\assets\picker_thumb.png" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\yui\assets\yui.css" />
+    <Content Include="Scripts\ckeditor\plugins\uicolor\yui\yui.js" />
+    <Content Include="Scripts\ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="Scripts\ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="Scripts\ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="Scripts\ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="Scripts\ckeditor\plugins\xml\plugin.js" />
+    <Content Include="Scripts\ckeditor\skins\kama\dialog.css" />
+    <Content Include="Scripts\ckeditor\skins\kama\editor.css" />
+    <Content Include="Scripts\ckeditor\skins\kama\icons.png" />
+    <Content Include="Scripts\ckeditor\skins\kama\icons_rtl.png" />
+    <Content Include="Scripts\ckeditor\skins\kama\images\dialog_sides.gif" />
+    <Content Include="Scripts\ckeditor\skins\kama\images\dialog_sides.png" />
+    <Content Include="Scripts\ckeditor\skins\kama\images\dialog_sides_rtl.png" />
+    <Content Include="Scripts\ckeditor\skins\kama\images\mini.gif" />
+    <Content Include="Scripts\ckeditor\skins\kama\images\noimage.png" />
+    <Content Include="Scripts\ckeditor\skins\kama\images\sprites.png" />
+    <Content Include="Scripts\ckeditor\skins\kama\images\sprites_ie6.png" />
+    <Content Include="Scripts\ckeditor\skins\kama\images\toolbar_start.gif" />
+    <Content Include="Scripts\ckeditor\skins\kama\skin.js" />
+    <Content Include="Scripts\ckeditor\skins\kama\templates.css" />
+    <Content Include="Scripts\ckeditor\skins\office2003\dialog.css" />
+    <Content Include="Scripts\ckeditor\skins\office2003\editor.css" />
+    <Content Include="Scripts\ckeditor\skins\office2003\icons.png" />
+    <Content Include="Scripts\ckeditor\skins\office2003\icons_rtl.png" />
+    <Content Include="Scripts\ckeditor\skins\office2003\images\dialog_sides.gif" />
+    <Content Include="Scripts\ckeditor\skins\office2003\images\dialog_sides.png" />
+    <Content Include="Scripts\ckeditor\skins\office2003\images\dialog_sides_rtl.png" />
+    <Content Include="Scripts\ckeditor\skins\office2003\images\mini.gif" />
+    <Content Include="Scripts\ckeditor\skins\office2003\images\noimage.png" />
+    <Content Include="Scripts\ckeditor\skins\office2003\images\sprites.png" />
+    <Content Include="Scripts\ckeditor\skins\office2003\images\sprites_ie6.png" />
+    <Content Include="Scripts\ckeditor\skins\office2003\skin.js" />
+    <Content Include="Scripts\ckeditor\skins\office2003\templates.css" />
+    <Content Include="Scripts\ckeditor\skins\v2\dialog.css" />
+    <Content Include="Scripts\ckeditor\skins\v2\editor.css" />
+    <Content Include="Scripts\ckeditor\skins\v2\icons.png" />
+    <Content Include="Scripts\ckeditor\skins\v2\icons_rtl.png" />
+    <Content Include="Scripts\ckeditor\skins\v2\images\dialog_sides.gif" />
+    <Content Include="Scripts\ckeditor\skins\v2\images\dialog_sides.png" />
+    <Content Include="Scripts\ckeditor\skins\v2\images\dialog_sides_rtl.png" />
+    <Content Include="Scripts\ckeditor\skins\v2\images\mini.gif" />
+    <Content Include="Scripts\ckeditor\skins\v2\images\noimage.png" />
+    <Content Include="Scripts\ckeditor\skins\v2\images\sprites.png" />
+    <Content Include="Scripts\ckeditor\skins\v2\images\sprites_ie6.png" />
+    <Content Include="Scripts\ckeditor\skins\v2\images\toolbar_start.gif" />
+    <Content Include="Scripts\ckeditor\skins\v2\skin.js" />
+    <Content Include="Scripts\ckeditor\skins\v2\templates.css" />
+    <Content Include="Scripts\ckeditor\themes\default\theme.js" />
+    <Content Include="tayana\html\images\menu_overview.jpg" />
+    <Content Include="tayana\html\images\new02.png" />
+    <Content Include="tayana\html\images\portrait-00.jpg" />
+    <Content Include="tayana\html\images\sail-boat-in-water-33689.jpg" />
+    <Content Include="WebForm1BackIndex.aspx" />
+    <Content Include="WebForm1dealersManageV2.aspx" />
+    <Content Include="RecaptchaNet.Readme.txt" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="SiteFront.Master" />
+    <Content Include="SiteBack.Master" />
+    <Content Include="WebForm1NewsManageCreate.aspx" />
+    <Content Include="WebForm1compan01.aspx" />
+    <Content Include="WebForm1compan02.aspx" />
+    <Content Include="WebForm1contact.aspx" />
+    <Content Include="WebForm1dealers.aspx" />
+    <Content Include="WebForm1dealersManage.aspx" />
+    <Content Include="WebForm1Index.aspx" />
+    <Content Include="WebForm1News01.aspx" />
+    <Content Include="WebForm1News02.aspx" />
+    <Content Include="WebForm1NewsManage.aspx" />
+    <Content Include="WebForm1NewsManageEdit.aspx" />
+    <Content Include="WebForm1test.aspx" />
+    <Content Include="WebForm1UserLogin.aspx" />
+    <Content Include="WebForm1UserManage.aspx" />
+    <Content Include="WebForm1UserRegister.aspx" />
+    <Content Include="WebForm1yachtManage.aspx" />
+    <Content Include="WebForm1yachtManageCreate1.aspx" />
+    <Content Include="WebForm1yachtManageEdit01.aspx" />
+    <Content Include="WebForm1yachtManageEdit02.aspx" />
+    <Content Include="WebForm1yachtManageEdit03.aspx" />
+    <Content Include="WebForm1yachtManageEdit03Edit.aspx" />
+    <Content Include="WebForm1yachts01.aspx" />
+    <Content Include="WebForm1yachts02.aspx" />
+    <Content Include="WebForm1yachts03.aspx" />
+    <Content Include="datta-able-bootstrap-dashboard\.github\workflows\prod.yml" />
+    <Content Include="datta-able-bootstrap-dashboard\.prettierignore" />
+    <Content Include="datta-able-bootstrap-dashboard\.prettierrc" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather\feather.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather\feather.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather\feather.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\inter\Inter-italic.var.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\inter\Inter-roman.var.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\material\material.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\Phosphor-Duotone.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\Phosphor-Duotone.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\selection.json" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\LICENSE" />
+    <Content Include="datta-able-bootstrap-dashboard\package-lock.json" />
+    <Content Include="datta-able-bootstrap-dashboard\package.json" />
+    <Content Include="datta-able-bootstrap-dashboard\README.md" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather\feather.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather\feather.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather\feather.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\inter\Inter-italic.var.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\inter\Inter-roman.var.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\material\material.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\Phosphor-Duotone.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\Phosphor-Duotone.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\selection.json" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\landing.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\settings\_bootstrap-variables.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\settings\_color-variables.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\settings\_theme-variables.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\style-preset.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\style.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_avtar.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_badge.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_button.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_card.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_dropdown.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_form.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_progress.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_table.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_tabs.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_widget.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\layouts\_pc-common.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\layouts\_pc-footer.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\layouts\_pc-header.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\layouts\_pc-sidebar.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\pages\_authentication.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\pages\_icon-pages.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\_general.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\_generic.scss" />
+    <Content Include="Scripts\ckeditor\ckeditor.pack" />
+    <Content Include="CheckAccount.ashx" />
+    <Content Include="UserLogout.ashx" />
+    <Content Include="image\IYT-MSWI-Boatmaster-Grade-1.webp" />
+    <None Include="Scripts\jquery-3.7.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.0.js" />
+    <Content Include="Scripts\jquery-3.7.0.min.js" />
+    <Content Include="Scripts\jquery-3.7.0.slim.js" />
+    <Content Include="Scripts\jquery-3.7.0.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="tayana\html\compan01.htm" />
+    <Content Include="tayana\html\contact.htm" />
+    <Content Include="tayana\html\css\csshover.htc" />
+    <Content Include="tayana\html\css\homestyle.css" />
+    <Content Include="tayana\html\css\iepngfix.htc" />
+    <Content Include="tayana\html\css\jquery.ad-gallery.css" />
+    <Content Include="tayana\html\css\js.css" />
+    <Content Include="tayana\html\css\reset.css" />
+    <Content Include="tayana\html\css\style.css" />
+    <Content Include="tayana\html\dealers.htm" />
+    <Content Include="tayana\html\homestyle.htm" />
+    <Content Include="tayana\html\homestyle02.htm" />
+    <Content Include="tayana\html\images\ad_next.png" />
+    <Content Include="tayana\html\images\ad_prev.png" />
+    <Content Include="tayana\html\images\ad_scroll_back.png" />
+    <Content Include="tayana\html\images\ad_scroll_forward.png" />
+    <Content Include="tayana\html\images\back.gif" />
+    <Content Include="tayana\html\images\banner001.jpg" />
+    <Content Include="tayana\html\images\banner001b.jpg" />
+    <Content Include="tayana\html\images\banner002.jpg" />
+    <Content Include="tayana\html\images\banner002b.jpg" />
+    <Content Include="tayana\html\images\banner003.jpg" />
+    <Content Include="tayana\html\images\banner003b.jpg" />
+    <Content Include="tayana\html\images\banner004.jpg" />
+    <Content Include="tayana\html\images\banner004b.jpg" />
+    <Content Include="tayana\html\images\banner005.jpg" />
+    <Content Include="tayana\html\images\banner005b.jpg" />
+    <Content Include="tayana\html\images\banner006.jpg" />
+    <Content Include="tayana\html\images\banner006b.jpg" />
+    <Content Include="tayana\html\images\banner00_masks.png" />
+    <Content Include="tayana\html\images\banner01_masks.png" />
+    <Content Include="tayana\html\images\banner02_masks.png" />
+    <Content Include="tayana\html\images\banner_masks.png" />
+    <Content Include="tayana\html\images\bg1.jpg" />
+    <Content Include="tayana\html\images\buttbg.gif" />
+    <Content Include="tayana\html\images\buttleft.gif" />
+    <Content Include="tayana\html\images\buttom01.gif" />
+    <Content Include="tayana\html\images\buttom02.gif" />
+    <Content Include="tayana\html\images\buttom03.gif" />
+    <Content Include="tayana\html\images\buttright.gif" />
+    <Content Include="tayana\html\images\changbg.gif" />
+    <Content Include="tayana\html\images\changbg.png" />
+    <Content Include="tayana\html\images\changbg1.gif" />
+    <Content Include="tayana\html\images\changbg1.png" />
+    <Content Include="tayana\html\images\company.jpg" />
+    <Content Include="tayana\html\images\contact.jpg" />
+    <Content Include="tayana\html\images\con_bg.gif" />
+    <Content Include="tayana\html\images\DEALERS.jpg" />
+    <Content Include="tayana\html\images\dealers001.jpg" />
+    <Content Include="tayana\html\images\dealers002.jpg" />
+    <Content Include="tayana\html\images\dealers003.jpg" />
+    <Content Include="tayana\html\images\dealers004.jpg" />
+    <Content Include="tayana\html\images\deckplan01.jpg" />
+    <Content Include="tayana\html\images\default1.jpg" />
+    <Content Include="tayana\html\images\default2.jpg" />
+    <Content Include="tayana\html\images\downloads.gif" />
+    <Content Include="tayana\html\images\footer.jpg" />
+    <Content Include="tayana\html\images\i001.jpg" />
+    <Content Include="tayana\html\images\i002.jpg" />
+    <Content Include="tayana\html\images\i003.jpg" />
+    <Content Include="tayana\html\images\i004.jpg" />
+    <Content Include="tayana\html\images\i005.jpg" />
+    <Content Include="tayana\html\images\i006.jpg" />
+    <Content Include="tayana\html\images\icon001.gif" />
+    <Content Include="tayana\html\images\icon002.gif" />
+    <Content Include="tayana\html\images\icon003.gif" />
+    <Content Include="tayana\html\images\icon004.gif" />
+    <Content Include="tayana\html\images\icon005.gif" />
+    <Content Include="tayana\html\images\icon006.gif" />
+    <Content Include="tayana\html\images\icon007.gif" />
+    <Content Include="tayana\html\images\icon008.gif" />
+    <Content Include="tayana\html\images\images\menu_y1_04.jpg" />
+    <Content Include="tayana\html\images\images\menu_y1_05.jpg" />
+    <Content Include="tayana\html\images\images\menu_y1_06.jpg" />
+    <Content Include="tayana\html\images\images\menu_y2_04.jpg" />
+    <Content Include="tayana\html\images\images\menu_y2_05.jpg" />
+    <Content Include="tayana\html\images\images\menu_y2_06.jpg" />
+    <Content Include="tayana\html\images\lefttop.gif" />
+    <Content Include="tayana\html\images\loader.gif" />
+    <Content Include="tayana\html\images\menu.gif" />
+    <Content Include="tayana\html\images\menu1_03.gif" />
+    <Content Include="tayana\html\images\menu1_04.gif" />
+    <Content Include="tayana\html\images\menu1_05.gif" />
+    <Content Include="tayana\html\images\menu1_06.gif" />
+    <Content Include="tayana\html\images\menu1_07.gif" />
+    <Content Include="tayana\html\images\menu2_03.gif" />
+    <Content Include="tayana\html\images\menu2_04.gif" />
+    <Content Include="tayana\html\images\menu2_05.gif" />
+    <Content Include="tayana\html\images\menu2_06.gif" />
+    <Content Include="tayana\html\images\menu2_07.gif" />
+    <Content Include="tayana\html\images\menu_y1_03.jpg" />
+    <Content Include="tayana\html\images\menu_y1_04.jpg" />
+    <Content Include="tayana\html\images\menu_y1_05.jpg" />
+    <Content Include="tayana\html\images\menu_y1_06.jpg" />
+    <Content Include="tayana\html\images\menu_y2_03.jpg" />
+    <Content Include="tayana\html\images\menu_y2_04.jpg" />
+    <Content Include="tayana\html\images\menu_y2_05.jpg" />
+    <Content Include="tayana\html\images\menu_y2_06.jpg" />
+    <Content Include="tayana\html\images\new01.png" />
+    <Content Include="tayana\html\images\newbanner.jpg" />
+    <Content Include="tayana\html\images\news.gif" />
+    <Content Include="tayana\html\images\new_top01.png" />
+    <Content Include="tayana\html\images\opa75.png" />
+    <Content Include="tayana\html\images\pit001.jpg" />
+    <Content Include="tayana\html\images\pit002.jpg" />
+    <Content Include="tayana\html\images\pit003.jpg" />
+    <Content Include="tayana\html\images\pit004.jpg" />
+    <Content Include="tayana\html\images\pit006.jpg" />
+    <Content Include="tayana\html\images\pit007.jpg" />
+    <Content Include="tayana\html\images\pit008.jpg" />
+    <Content Include="tayana\html\images\pit009.jpg" />
+    <Content Include="tayana\html\images\pit010.jpg" />
+    <Content Include="tayana\html\images\sub_bg.gif" />
+    <Content Include="tayana\html\images\test002.jpg" />
+    <Content Include="tayana\html\images\test1.jpg" />
+    <Content Include="tayana\html\images\tog.jpg" />
+    <Content Include="tayana\html\images\top.gif" />
+    <Content Include="tayana\html\images\transparent.gif" />
+    <Content Include="tayana\html\images\ya01.jpg" />
+    <Content Include="tayana\html\index.htm" />
+    <Content Include="tayana\html\index1.htm" />
+    <Content Include="tayana\html\index_test.htm" />
+    <Content Include="tayana\html\javascript\iepngfix_tilebg.js" />
+    <Content Include="tayana\html\javascript\pngfix.js" />
+    <Content Include="tayana\html\news01.htm" />
+    <Content Include="tayana\html\news02.htm" />
+    <Content Include="tayana\html\Scripts\AC_RunActiveContent.js" />
+    <Content Include="tayana\html\Scripts\jquery-1.6.1.min.js" />
+    <Content Include="tayana\html\Scripts\jquery.ad-gallery.js" />
+    <Content Include="tayana\html\Scripts\jquery.cycle.all.2.74.js" />
+    <Content Include="tayana\html\Scripts\jquery.cycle.all.latest.js" />
+    <Content Include="tayana\html\Scripts\jquery.event.hover-1.0.js" />
+    <Content Include="tayana\html\Scripts\jquery.min.js" />
+    <Content Include="tayana\html\Scripts\jquery.timers.js" />
+    <Content Include="tayana\html\work_list.htm" />
+    <Content Include="tayana\html\yachts01.htm" />
+    <Content Include="tayana\html\yachts02.htm" />
+    <Content Include="tayana\html\yachts03.htm" />
+    <Content Include="tayana\html\yachts03_test.htm" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BindGV.cs" />
+    <Compile Include="UserLogout.ashx.cs">
+      <DependentUpon>UserLogout.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="DbHelper.cs" />
+    <Compile Include="CheckAccount.ashx.cs">
+      <DependentUpon>CheckAccount.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1BackIndex.aspx.cs">
+      <DependentUpon>WebForm1BackIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1BackIndex.aspx.designer.cs">
+      <DependentUpon>WebForm1BackIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1dealersManageV2.aspx.cs">
+      <DependentUpon>WebForm1dealersManageV2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1dealersManageV2.aspx.designer.cs">
+      <DependentUpon>WebForm1dealersManageV2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteBack.Master.cs">
+      <DependentUpon>SiteBack.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteBack.Master.designer.cs">
+      <DependentUpon>SiteBack.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteFront.Master.cs">
+      <DependentUpon>SiteFront.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteFront.Master.designer.cs">
+      <DependentUpon>SiteFront.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteFronthomestyle.Master.cs">
+      <DependentUpon>SiteFronthomestyle.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteFronthomestyle.Master.designer.cs">
+      <DependentUpon>SiteFronthomestyle.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteFronthomestyleYachts03.Master.cs">
+      <DependentUpon>SiteFronthomestyleYachts03.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteFronthomestyleYachts03.Master.designer.cs">
+      <DependentUpon>SiteFronthomestyleYachts03.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1NewsManageCreate.aspx.cs">
+      <DependentUpon>WebForm1NewsManageCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1NewsManageCreate.aspx.designer.cs">
+      <DependentUpon>WebForm1NewsManageCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1compan01.aspx.cs">
+      <DependentUpon>WebForm1compan01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1compan01.aspx.designer.cs">
+      <DependentUpon>WebForm1compan01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1compan02.aspx.cs">
+      <DependentUpon>WebForm1compan02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1compan02.aspx.designer.cs">
+      <DependentUpon>WebForm1compan02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1contact.aspx.cs">
+      <DependentUpon>WebForm1contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1contact.aspx.designer.cs">
+      <DependentUpon>WebForm1contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1dealers.aspx.cs">
+      <DependentUpon>WebForm1dealers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1dealers.aspx.designer.cs">
+      <DependentUpon>WebForm1dealers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1dealersManage.aspx.cs">
+      <DependentUpon>WebForm1dealersManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1dealersManage.aspx.designer.cs">
+      <DependentUpon>WebForm1dealersManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1Index.aspx.cs">
+      <DependentUpon>WebForm1Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1Index.aspx.designer.cs">
+      <DependentUpon>WebForm1Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1News01.aspx.cs">
+      <DependentUpon>WebForm1News01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1News01.aspx.designer.cs">
+      <DependentUpon>WebForm1News01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1News02.aspx.cs">
+      <DependentUpon>WebForm1News02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1News02.aspx.designer.cs">
+      <DependentUpon>WebForm1News02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1NewsManage.aspx.cs">
+      <DependentUpon>WebForm1NewsManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1NewsManage.aspx.designer.cs">
+      <DependentUpon>WebForm1NewsManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1NewsManageEdit.aspx.cs">
+      <DependentUpon>WebForm1NewsManageEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1NewsManageEdit.aspx.designer.cs">
+      <DependentUpon>WebForm1NewsManageEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1test.aspx.cs">
+      <DependentUpon>WebForm1test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1test.aspx.designer.cs">
+      <DependentUpon>WebForm1test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1UserLogin.aspx.cs">
+      <DependentUpon>WebForm1UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1UserLogin.aspx.designer.cs">
+      <DependentUpon>WebForm1UserLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1UserManage.aspx.cs">
+      <DependentUpon>WebForm1UserManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1UserManage.aspx.designer.cs">
+      <DependentUpon>WebForm1UserManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1UserRegister.aspx.cs">
+      <DependentUpon>WebForm1UserRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1UserRegister.aspx.designer.cs">
+      <DependentUpon>WebForm1UserRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachtManage.aspx.cs">
+      <DependentUpon>WebForm1yachtManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachtManage.aspx.designer.cs">
+      <DependentUpon>WebForm1yachtManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachtManageCreate1.aspx.cs">
+      <DependentUpon>WebForm1yachtManageCreate1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachtManageCreate1.aspx.designer.cs">
+      <DependentUpon>WebForm1yachtManageCreate1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachtManageEdit01.aspx.cs">
+      <DependentUpon>WebForm1yachtManageEdit01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachtManageEdit01.aspx.designer.cs">
+      <DependentUpon>WebForm1yachtManageEdit01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachtManageEdit02.aspx.cs">
+      <DependentUpon>WebForm1yachtManageEdit02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachtManageEdit02.aspx.designer.cs">
+      <DependentUpon>WebForm1yachtManageEdit02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachtManageEdit03.aspx.cs">
+      <DependentUpon>WebForm1yachtManageEdit03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachtManageEdit03.aspx.designer.cs">
+      <DependentUpon>WebForm1yachtManageEdit03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachtManageEdit03Edit.aspx.cs">
+      <DependentUpon>WebForm1yachtManageEdit03Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachtManageEdit03Edit.aspx.designer.cs">
+      <DependentUpon>WebForm1yachtManageEdit03Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachts01.aspx.cs">
+      <DependentUpon>WebForm1yachts01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachts01.aspx.designer.cs">
+      <DependentUpon>WebForm1yachts01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachts02.aspx.cs">
+      <DependentUpon>WebForm1yachts02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachts02.aspx.designer.cs">
+      <DependentUpon>WebForm1yachts02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1yachts03.aspx.cs">
+      <DependentUpon>WebForm1yachts03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1yachts03.aspx.designer.cs">
+      <DependentUpon>WebForm1yachts03.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="File\Upload\NewsFile\" />
+    <Folder Include="image\upload\test\" />
+    <Folder Include="image\upload\Yacht\Cover\" />
+    <Folder Include="image\upload\Yacht\DimensionImg\" />
+    <Folder Include="image\upload\Yacht\File\" />
+    <Folder Include="image\upload\Yacht\LayoutImg\" />
+    <Folder Include="tayana\html\images\新增資料夾\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.0.min.map" />
+    <Content Include="tayana\html\images\images\Thumbs.db" />
+    <Content Include="tayana\html\images\Thumbs.db" />
+    <Content Include="Site1.Master" />
+    <Content Include="SiteFronthomestyle.Master" />
+    <Content Include="SiteFronthomestyleYachts03.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3012</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44389/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此專案參考這部電腦上所缺少的 NuGet 套件。請啟用 NuGet 套件還原，以下載該套件。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.5.6.2\build\Microsoft.TypeScript.MSBuild.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.5.6.2\build\Microsoft.TypeScript.MSBuild.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.5.6.2\build\Microsoft.TypeScript.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.5.6.2\build\Microsoft.TypeScript.MSBuild.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.5.6.2\build\Microsoft.TypeScript.MSBuild.targets" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.5.6.2\build\Microsoft.TypeScript.MSBuild.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

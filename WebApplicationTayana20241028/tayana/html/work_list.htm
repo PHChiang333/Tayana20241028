@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大洋遊艇架構表</title>
+<style type="text/css">
+html{
+	color:#000;
+}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+
+}table{
+	border-collapse:collapse;
+	border-spacing:0;
+}fieldset,img{
+	border:0;
+}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}legend{color:#000;}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#content {
+	float: left;
+	width: 1024px;
+}
+.tab01 {
+	/* [disabled]border-collapse:collapse; */
+	/* [disabled]border-spacing:0; */
+}
+.tab01 td {
+	border: 1px solid #99CC00;
+	text-align: center;
+	line-height: 26px;
+	height: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000;
+}
+#tdleft {
+	border: 1px solid #99CC00;
+	text-align: left;
+	line-height: 26px;
+	height: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000;
+	text-indent: 8px;
+}
+.tab01 th {
+	border: 1px solid #99CC00;
+	text-align: left;
+	text-indent: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #6A9B04;
+	font-weight: bold;
+	background-color: #F2FAE4;
+	line-height: 26px;
+	height: 26px;
+}
+#thcenter {
+	text-align: center;
+	text-indent: -2px;
+}
+#date85 {
+	float: left;
+	width: 85%;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 24px;
+	font-size: 80%;
+	text-align: center;
+}
+#date15 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	float: right;
+	width: 15%;
+	line-height: 24px;
+}
+#font18 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #99CC00;
+	line-height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.font_red {
+	color: #F00;
+}
+.font80 {
+	color: #008080;
+}
+.font001 {
+	color: #330000;
+}
+.tdhight30 {
+	height: 30px;
+}
+#tdtit_01,#tdtit_02,#tdtit_03,#tdtit_04,#tdtit_05,#tdtit_06,#tdtit_07 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	line-height: 26px;
+	color: #FFF;
+	background-color: #99CC00;
+	font-weight: bold;
+	height: 26px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+}
+#tdtit_01 {
+	width: 16%;
+}
+#tdtit_02 {
+	width: 25%;
+}
+#tdtit_03 {
+	width: 11%;
+}
+#tdtit_04, #tdtit_05{
+	width: 12%;
+}
+#tdtit_06 {
+	width: 8%;
+}
+#tdtit_07 {
+	width: 4%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #9C0;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="content">
+  <table class="tab01" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td id="font18" colspan="8">大洋遊艇網站架構表</td>
+    </tr>
+  <tr>
+    <td colspan="8">
+    <ul>
+    <li id="date85">更新日期：<font class="font_red">2012/03/06</font></li>
+    <li id="date15">完成日期：2012/03/10</li>
+    </ul>    </td>
+    </tr>
+  <tr>
+    <td class="tdhight30" colspan="8">&nbsp;</td>
+    </tr>
+  <tr>
+    <td id="tdtit_01">主項架構</td>
+    <td id="tdtit_02">分類1</td>
+    <td id="tdtit_03">分類2</td>
+    <td id="tdtit_03">分類3</td>
+    <td id="tdtit_04">System</td>
+    <td id="tdtit_05">檔名</td>
+    <td id="tdtit_06">類型</td>
+    <td id="tdtit_07">備註</td>
+  </tr>
+  <tr>
+    <th>首頁</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th id="thcenter"><a href="index.htm">index</a></th>
+    <th>&nbsp;</th>
+    <th>v</th>
+  </tr>
+  <tr>
+    <th>內頁主版</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th id="thcenter"><a href="homestyle.htm">homestyle</a></th>
+    <th>&nbsp;</th>
+    <th>v</th>
+  </tr>  
+  <tr>
+    <th>1.Yachts  </th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th id="thcenter">&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+  </tr>  
+    <tr>
+      <td id="tdleft2">&nbsp;</td>
+      <td id="tdleft">1-1.Interior</td>
+      <td id="tdleft">&nbsp;</td>
+      <td id="tdleft">&nbsp;</td>
+      <td><font class="font_red">系統</font></td>
+      <td><a href="yachts01.htm">yachts01.htm</a></td>
+      <td>&nbsp;</td>
+      <td>v</td>
+    </tr>
+    <tr>
+      <td id="tdleft6">&nbsp;</td>
+      <td id="tdleft">1-2.Layout &amp; deck plan</td>
+      <td id="tdleft">&nbsp;</td>
+      <td id="tdleft">&nbsp;</td>
+      <td><font class="font_red">系統</font></td>
+      <td><a href="yachts02.htm">yachts02.htm</a></td>
+      <td>&nbsp;</td>
+      <td>v</td>
+    </tr>
+    <tr>
+    <td id="tdleft">&nbsp;</td>
+    <td id="tdleft">1-3.Specification</td>
+    <td id="tdleft">&nbsp;</td>
+    <td id="tdleft">&nbsp;</td>
+    <td><font class="font_red">系統</font></td>
+    <td><a href="yachts03.htm">yachts03.htm</a></td>
+    <td>&nbsp;</td>
+    <td>v</td>
+  </tr>
+  
+  <tr>
+    <th>2.  NEWS </th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th id="thcenter">&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+  </tr> 
+  
+  <tr>
+    <td>&nbsp;</td>
+    <td id="tdleft">2-1 news_list</td>
+    <td id="tdleft">&nbsp;</td>
+    <td id="tdleft">&nbsp;</td>
+    <td><font class="font_red">系統</font></td>
+    <td><a href="news01.htm">new01.htm</a></td>
+    <td>列表頁</td>
+    <td>v</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td id="tdleft">2-2 news_show</td>
+    <td id="tdleft">&nbsp;</td>
+    <td id="tdleft">&nbsp;</td>
+    <td><font class="font_red">系統</font></td>
+    <td><a href="news02.htm">new02.htm</a></td>
+    <td>內容頁</td>
+    <td>v</td>
+  </tr>  
+  
+  <tr>
+    <th>3.COMPANY    </th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th id="thcenter">&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+  </tr> 
+  
+  <tr>
+    <td>&nbsp;</td>
+    <td id="tdleft">3-1 COMPANY </td>
+    <td id="tdleft">&nbsp;</td>
+    <td id="tdleft">&nbsp;</td>
+    <td><font class="font80">靜態</font></td>
+    <td><a href="compan01.htm">compan01.htm</a></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td id="tdleft">3-2 COMPANY </td>
+    <td id="tdleft">&nbsp;</td>
+    <td id="tdleft">&nbsp;</td>
+    <td><font class="font80">靜態</font></td>
+    <td>compan02.htm</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr> 
+  
+<tr>
+    <th>4.Dealers</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th id="thcenter">&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+  </tr>   
+  <tr>
+    <td>&nbsp;</td>
+    <td id="tdleft">4-1.Dealers</td>
+    <td id="tdleft">&nbsp;</td>
+    <td id="tdleft">&nbsp;</td>
+    <td><font class="font_red">系統</font></td>
+    <td><a href="dealers.htm">dealers.htm</a></td>
+    <td>&nbsp;</td>
+    <td>v</td>
+  </tr> 
+  
+<tr>
+    <th>5.CONTACT</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th id="thcenter">&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+  </tr> 
+  
+<tr>
+  <td>&nbsp;</td>
+  <td id="tdleft">5-1Contact</td>
+  <td id="tdleft3">&nbsp;</td>
+  <td id="tdleft3">&nbsp;</td>
+  <td><font class="font_red">系統</font></td>
+  <td><a href="contact.htm">contact.htm</a></td>
+  <td>表單</td>
+  <td>v</td>
+</tr>                                                                    
+</table>
+  </div>
+</div>
+</body>
+</html>

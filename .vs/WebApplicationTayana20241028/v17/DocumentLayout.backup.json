@@ -1,0 +1,847 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1dealersmanagev2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1dealersmanagev2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1dealersmanagev2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1dealersmanagev2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1dealersmanage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1dealersmanage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|e:\\onedrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practicewebform\\webapplicationtayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1dealersmanage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1dealersmanage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|e:\\onedrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practicewebform\\webapplicationtayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanageedit03edit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanageedit03edit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1newsmanageedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1newsmanageedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1newsmanageedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1newsmanageedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1newsmanagecreate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1newsmanagecreate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1newsmanagecreate.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1newsmanagecreate.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1news01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1news01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1newsmanage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1newsmanage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanageedit03edit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanageedit03edit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1newsmanage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1newsmanage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1news01.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1news01.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachts01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachts01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanageedit03.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanageedit03.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachts02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachts02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachts02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachts02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1userlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1userlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\siteback.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\siteback.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanageedit01.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanageedit01.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanageedit01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanageedit01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1compan02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1compan02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1backindex.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1backindex.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanageedit03.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanageedit03.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\bindgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\bindgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanageedit02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanageedit02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanageedit02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanageedit02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachtmanagecreate1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachtmanagecreate1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1usermanage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1usermanage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1test.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1test.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1dealers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1dealers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachts03.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachts03.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1yachts03.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1yachts03.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1userregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1userregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1userregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1userregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\webform1compan01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\webform1compan01.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\sitefronthomestyleyachts03.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\sitefronthomestyleyachts03.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\sitefront.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\sitefront.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\userlogout.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\userlogout.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\checkaccount.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\checkaccount.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\datta-able-bootstrap-dashboard\\src\\html\\layouts\\sidebar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\datta-able-bootstrap-dashboard\\src\\html\\layouts\\sidebar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\webapplicationtayana20241028\\sitefronthomestyle.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{BC0964DF-675B-4A6B-9236-F96619129907}|WebApplicationTayana20241028\\WebApplicationTayana20241028.csproj|solutionrelative:webapplicationtayana20241028\\sitefronthomestyle.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 458,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebForm1yachtManageEdit03Edit.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit03Edit.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageEdit03Edit.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit03Edit.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageEdit03Edit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T19:15:22.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1dealersManage.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealersManage.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1dealersManage.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealersManage.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1dealersManage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T19:07:13.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebForm1dealersManageV2.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealersManageV2.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1dealersManageV2.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealersManageV2.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1dealersManageV2.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T02:25:01.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1dealersManageV2.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealersManageV2.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1dealersManageV2.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealersManageV2.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1dealersManageV2.aspx.cs",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAewFMCAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:28:35.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebForm1Index.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1Index.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1Index.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1Index.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T04:27:55.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebForm1dealersManage.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealersManage.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1dealersManage.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealersManage.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1dealersManage.aspx.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwCsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T15:07:38.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebForm1NewsManageCreate.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManageCreate.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1NewsManageCreate.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManageCreate.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1NewsManageCreate.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T19:10:48.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebForm1NewsManageCreate.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManageCreate.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1NewsManageCreate.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManageCreate.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1NewsManageCreate.aspx.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:46:59.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\Web.config",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\Web.config",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\Web.config",
+              "RelativeToolTip": "WebApplicationTayana20241028\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-27T09:49:51.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebForm1contact.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1contact.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1contact.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1contact.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1contact.aspx.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAUwJ8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:25:51.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebForm1contact.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1contact.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1contact.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1contact.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T03:25:49.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebForm1NewsManageEdit.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManageEdit.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1NewsManageEdit.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManageEdit.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1NewsManageEdit.aspx.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAowLYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:43:05.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WebForm1News01.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1News01.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1News01.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1News01.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1News01.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T18:28:30.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebForm1NewsManageEdit.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManageEdit.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1NewsManageEdit.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManageEdit.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1NewsManageEdit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T04:43:03.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WebForm1yachtManageEdit03Edit.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit03Edit.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageEdit03Edit.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit03Edit.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageEdit03Edit.aspx.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAwwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:25:27.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WebForm1NewsManage.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManage.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1NewsManage.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManage.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1NewsManage.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:42:41.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WebForm1NewsManage.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManage.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1NewsManage.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1NewsManage.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1NewsManage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T04:42:36.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebForm1News01.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1News01.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1News01.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1News01.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1News01.aspx.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAQwGMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:31:06.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WebForm1yachts01.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts01.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachts01.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts01.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachts01.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T06:30:22.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WebForm1UserLogin.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1UserLogin.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1UserLogin.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1UserLogin.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1UserLogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-27T09:51:49.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WebForm1yachtManageEdit03.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit03.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageEdit03.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit03.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageEdit03.aspx.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAwwKgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T21:36:57.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SiteBack.Master",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\SiteBack.Master",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\SiteBack.Master",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\SiteBack.Master",
+              "RelativeToolTip": "WebApplicationTayana20241028\\SiteBack.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T17:25:27.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WebForm1yachtManageEdit01.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit01.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageEdit01.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit01.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageEdit01.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T04:36:02.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WebForm1yachtManageEdit01.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit01.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageEdit01.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit01.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageEdit01.aspx.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAASwNoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:37:56.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WebForm1Index.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1Index.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1Index.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1Index.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1Index.aspx.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAQwLkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:15:26.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WebForm1compan02.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1compan02.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1compan02.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1compan02.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1compan02.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T16:17:16.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WebForm1yachtManageEdit02.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit02.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageEdit02.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit02.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageEdit02.aspx.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAABVwEoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:19:23.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BindGV.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\BindGV.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\BindGV.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\BindGV.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\BindGV.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:31:55.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "WebForm1yachtManageEdit02.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit02.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageEdit02.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit02.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageEdit02.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T19:14:50.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "WebForm1yachtManageCreate1.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageCreate1.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageCreate1.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageCreate1.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageCreate1.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T19:13:21.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WebForm1test.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1test.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1test.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1test.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1test.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T19:11:51.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WebForm1dealers.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealers.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1dealers.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1dealers.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1dealers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T18:52:17.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WebForm1yachts02.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts02.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachts02.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts02.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachts02.aspx.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAADwvzAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:47:22.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WebForm1yachts03.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts03.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachts03.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts03.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachts03.aspx.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAewFMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:47:19.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WebForm1UserRegister.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1UserRegister.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1UserRegister.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1UserRegister.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1UserRegister.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T17:54:51.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "WebForm1compan01.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1compan01.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1compan01.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1compan01.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1compan01.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T16:17:35.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UserLogout.ashx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\UserLogout.ashx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\UserLogout.ashx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\UserLogout.ashx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\UserLogout.ashx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:21.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "WebForm1UserManage.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1UserManage.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1UserManage.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1UserManage.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1UserManage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-27T07:04:01.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "sidebar.html",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\datta-able-bootstrap-dashboard\\src\\html\\layouts\\sidebar.html",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\datta-able-bootstrap-dashboard\\src\\html\\layouts\\sidebar.html",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\datta-able-bootstrap-dashboard\\src\\html\\layouts\\sidebar.html",
+              "RelativeToolTip": "WebApplicationTayana20241028\\datta-able-bootstrap-dashboard\\src\\html\\layouts\\sidebar.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-27T09:25:11.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WebForm1BackIndex.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1BackIndex.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1BackIndex.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1BackIndex.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1BackIndex.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T17:44:46.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CheckAccount.ashx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\CheckAccount.ashx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\CheckAccount.ashx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\CheckAccount.ashx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\CheckAccount.ashx.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:47:45.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WebForm1UserRegister.aspx.cs",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1UserRegister.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1UserRegister.aspx.cs",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1UserRegister.aspx.cs",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1UserRegister.aspx.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwE0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:55:31.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SiteFronthomestyleYachts03.Master",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\SiteFronthomestyleYachts03.Master",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\SiteFronthomestyleYachts03.Master",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\SiteFronthomestyleYachts03.Master",
+              "RelativeToolTip": "WebApplicationTayana20241028\\SiteFronthomestyleYachts03.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-27T05:53:49.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SiteFronthomestyle.Master",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\SiteFronthomestyle.Master",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\SiteFronthomestyle.Master",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\SiteFronthomestyle.Master",
+              "RelativeToolTip": "WebApplicationTayana20241028\\SiteFronthomestyle.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-27T05:15:36.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WebForm1yachtManageEdit03.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit03.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachtManageEdit03.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachtManageEdit03.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachtManageEdit03.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T09:14:05.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WebForm1yachts03.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts03.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachts03.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts03.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachts03.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T06:32:34.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SiteFront.Master",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\SiteFront.Master",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\SiteFront.Master",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\SiteFront.Master",
+              "RelativeToolTip": "WebApplicationTayana20241028\\SiteFront.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T06:16:35.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WebForm1yachts02.aspx",
+              "DocumentMoniker": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts02.aspx",
+              "RelativeDocumentMoniker": "WebApplicationTayana20241028\\WebForm1yachts02.aspx",
+              "ToolTip": "E:\\OneDrive\\\u684C\u9762\\\u706B\u7BAD\u968A17th\\backend\\practiceWebform\\WebApplicationTayana20241028-v3(250801)\\WebApplicationTayana20241028\\WebForm1yachts02.aspx",
+              "RelativeToolTip": "WebApplicationTayana20241028\\WebForm1yachts02.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T06:31:54.746Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 95,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 206,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

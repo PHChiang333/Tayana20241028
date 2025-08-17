@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+	#abgne-block-20110111 {
+	width: 600px;
+	}
+	#abgne-block-20110111 .info {
+	display: none;
+	}
+	#abgne-block-20110111 .on {
+		display: block;
+	}
+	#abgne-block-20110111 .title {
+
+	}
+	#abgne-block-20110111 .title li {
+	cursor: pointer;
+	float: left;
+	background-image: url(../images/changbg1.gif);
+	background-repeat: no-repeat;
+	background-position: 9px 0px;
+	height: 70px;
+	width: 103px;
+	}
+	#abgne-block-20110111 .title li.on, #abgne-block-20110111 .title li.over {
+	background-image: url(../images/changbg.gif);
+	background-repeat: no-repeat;
+	background-position: 9px 0px;
+	height: 70px;
+	width: 103px;
+
+	}
+	
+	
+	
+	ul, li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.slideshow {
+		position: relative;
+		height: 160px;
+		width: 210px;
+		float: left;
+		margin: 0 10px;
+		border: 3px solid #ddd;
+	}
+	.slideshow li {
+		position: absolute;
+	}
+	.slideshow a img{
+		display: block;
+		padding: 0;
+		margin: 0 auto;
+		border: none;
+	}
+	.slideshow li a{
+		display: block;
+	}
+	.slideshowController {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.slideshowController a {
+		background: transparent url(images/arrows.png) no-repeat left top;
+		display: block;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 60px;
+		bottom: 0;
+		z-index: 9999;
+		outline: none;	/* 去除超連結虛線 */
+	}
+	.slideshowController .next{
+		background-position: -30px 0;
+		right: 0;
+	}
+	.slideshowController .play{
+		background-position: -60px 0;
+		right: 30px;
+	}
+	.slideshowController .pause{
+		background-position: -90px 0;
+	}
